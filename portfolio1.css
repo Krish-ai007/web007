@@ -178,6 +178,16 @@ input{
     color: rgb(255, 255, 255);
     background-color: rgb(11, 111, 251);
 }
+#footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    position: relative; 
+    z-index: 1; 
+}
+
 @media (max-width:400px){
     #connect{
         font-size: 0.7em;
@@ -206,7 +216,7 @@ input{
         font-size: 0.9em;
     }
     #subcon3{
-       font-size: 0.3em;
+       font-size: 0.1em;
         padding: 0.9em;
         text-align: center;
     }
